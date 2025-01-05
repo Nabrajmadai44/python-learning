@@ -24,7 +24,7 @@ if(a>2):
 '''   
    
    
-# Nested If Statement
+# Nested If Statement______________________
 '''Syntax
 if(condition):
     block of statement
@@ -38,7 +38,6 @@ Rest of the code
 '''
 '''
 if 5>2:
-    print("Greater")
     print("5 is greater than 2")
     if(6>2):
         print("6 is greater than 2")

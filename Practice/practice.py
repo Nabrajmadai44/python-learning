@@ -21,15 +21,27 @@
 # print(word.find("devil"))
 # print(word.replace("hello","language is"))
 
-Name = input("Good Morning ")
-print(Name)
+# Name = input("Good Morning ")
+# print(Name)
 
 
 
 
+# def GFG(name, num):
+#     print("Hello from ", name + ', ' + num)
 
-def GFG(name, num):
-    print("Hello from ", name + ', ' + num)
+# GFG("geeks for geeks", "25")
 
 
-GFG("geeks for geeks", "25")
+
+#  WAF to convert USD to NPR
+
+value = int(input("Enter USD that you want to convert: "))
+def converter(usd_value):
+    NPR_value = usd_value * 138 # 1 usd = 138 npr
+    print(f'{usd_value} USD = {NPR_value} NPR')
+
+converter(value)
+
+
+
